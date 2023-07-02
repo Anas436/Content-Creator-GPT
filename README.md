@@ -2,13 +2,11 @@
 
 
 
-This is a Python application that allows you to load a PDF and ask questions about it using natural language. The application uses a LLM to generate a response about your PDF. The LLM will not answer questions unrelated to the document.
+This is a Python application that allows you to ask questions about it using natural language. The application uses a LLM and OpenAI API to generate a content for any social media like YouTube about your topic.
 
 ## How it works
 
-The application reads the PDF and splits the text into smaller chunks that can be then fed into a LLM. It uses OpenAI embeddings to create vector representations of the chunks. The application then finds the chunks that are semantically similar to the question that the user asked and feeds those chunks to the LLM to generate a response.
-
-The application uses Streamlit to create the GUI and Langchain to deal with the LLM.
+The "Content creator GPT" is an application that utilizes the OpenAI API and Laungchain GPT to generate content for social media platforms like YouTube. It incorporates user chat history and retrieves relevant data from Wikipedia. Built using Streamlit, the application allows users to enter their messages or topics, which are then processed by the OpenAI API to generate tailored content. The application maintains consistency by considering the user's previous chat messages and leverages information from Wikipedia to enhance the content generation process. The generated content is presented back to the user through the Streamlit interface, providing an efficient and personalized way to create engaging content for social media platforms.
 
 
 ## Installation
