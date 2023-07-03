@@ -8,6 +8,8 @@ This is a Python application that allows you to ask questions about it using nat
 
 The "Content creator GPT" is an application that utilizes the OpenAI API and Laungchain GPT to generate content for social media platforms like YouTube. It incorporates user chat history and retrieves relevant data from Wikipedia. Built using Streamlit, the application allows users to enter their messages or topics, which are then processed by the OpenAI API to generate tailored content. The application maintains consistency by considering the user's previous chat messages and leverages information from Wikipedia to enhance the content generation process. The generated content is presented back to the user through the Streamlit interface, providing an efficient and personalized way to create engaging content for social media platforms.
 
+![](https://github.com/Anas436/Content-Creator-GPT/blob/main/Content%20Creator%20GPT.gif)
+
 
 ## Installation
 
